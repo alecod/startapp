@@ -1,5 +1,5 @@
 import { View, Text, TextInput, Button } from "react-native";
-import AuthLayout from "@/src/layouts/auth-layout";
+import AuthLayout from "@/app/src/layouts/AuthLayout";
 
 export default function LoginScreen() {
   return (

@@ -1,12 +1,12 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import HomeScreen from "@/src/screens/dashboard/home";
+import LoginScreen from "@/app/src/screens/auth/LoginScreen";
 
 const Stack = createNativeStackNavigator();
 
-export default function DashboardStack() {
+export default function AuthStack() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Login" component={LoginScreen} />
     </Stack.Navigator>
   );
 }
